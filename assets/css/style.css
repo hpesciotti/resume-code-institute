@@ -69,6 +69,11 @@ header {
     font-size: 0;
 }
 
+
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -107,4 +112,12 @@ header {
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+/* ---------------------------- Hover.css */
+
+.hvr-sweep-to-left:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+    transition-duration: 0.5s;
 }
