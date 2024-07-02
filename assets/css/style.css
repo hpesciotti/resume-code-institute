@@ -22,11 +22,30 @@
     background-color: #525252;
 }
 
+/* ---------------------------- Special paddings/margins/text */
+
+h1, h2, h3, h4 {
+    margin:0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* ---------------------------- Heading */
 
 header {
     margin: 0;
-
 }
 
 .heading {
@@ -120,4 +139,50 @@ header {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
     transition-duration: 0.5s;
+}
+
+/* ---------------------------- Footer */
+
+footer {
+    background-color: #525252;
+    min-height: 120px;
+    color: #fafafa;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color:#fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.social-links li a i {
+    width: 42px;
+    height: 42px;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
