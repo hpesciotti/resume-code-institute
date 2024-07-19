@@ -363,6 +363,11 @@ button[type="submit"] {
     margin: 8px 0
 }
 
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
 /* ---------------------------- Media Queries */
 
 @media(min-width:992px) {
